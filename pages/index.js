@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
+import Avatar from "../components/Avatar";
 
 const Home = () => {
   return (
@@ -46,6 +47,19 @@ const Home = () => {
           >
             <ProjectsBtn />
           </motion.div>
+        </div>
+      </div>
+      {/* image */}
+      <div className="w-[1200px] h-full absolute right-0 bottom-0">
+        {/* bg img */}
+        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
+
+        </div>
+        {/* Particles */}
+        <div>Particles</div>
+        {/* avatar img */}
+        <div>
+          <Avatar />
         </div>
       </div>
     </div>
