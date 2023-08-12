@@ -1,3 +1,9 @@
+import { motion, } from "framer-motion";
+
+
+import ProjectsBtn from "../components/ProjectsBtn";
+import {fadeIn} from '../variants'
+
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
@@ -19,7 +25,19 @@ const Home = () => {
 
 
 
+<div className="flex justfy-center xl:hidden relative ">
+  <ProjectsBtn/>
+</div>
+<motion.div 
+variants={fadeIn('down', 0.4)}
+initial='hidden'
+animate='show'
+exit='hidden'
+className='hidden xl:flex'
 
+>
+  <ProjectsBtn/>
+</motion.div>
 
 
 
