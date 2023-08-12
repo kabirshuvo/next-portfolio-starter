@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
 import Avatar from "../components/Avatar";
+import ParticlesContainer from "../components/ParticlesContainer";
 
 const Home = () => {
   return (
@@ -56,7 +57,7 @@ const Home = () => {
 
         </div>
         {/* Particles */}
-        <div>Particles</div>
+       <ParticlesContainer/>
         {/* avatar img */}
         <motion.div
           variants={fadeIn("up", 0.6)}
@@ -65,7 +66,7 @@ const Home = () => {
           exit="hidden"
           transition={{duration: 1, ease: 'easeInOut'}}
          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-33 lg:bottom-0 lg:right-[8%]">
-          <Avatar />
+          {/* <Avatar /> */}
         </motion.div>
       </div>
     </div>
