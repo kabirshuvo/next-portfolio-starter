@@ -162,7 +162,7 @@ const About = () => {
             </div>
             <div>
               {/* clients */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+              <div className="relative ms-5 flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-sky-700 mb-2">
                   <CountUp start={0} end={7} duration={7} /> +
                 </div>
@@ -173,7 +173,7 @@ const About = () => {
             </div>
             <div>
               {/* Projects */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+              <div className="relative ms-5 flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-sky-700 mb-2">
                   <CountUp start={0} end={19} duration={7} /> +
                 </div>
