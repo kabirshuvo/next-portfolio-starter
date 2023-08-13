@@ -4,6 +4,8 @@ import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
 import Avatar from "../components/Avatar";
 import ParticlesContainer from "../components/ParticlesContainer";
+import ParticlesMove from "../components/ParticlesMove";
+import ParticlesMoveOne from "../components/ParticlesMoveOne";
 
 const Home = () => {
   return (
@@ -57,7 +59,10 @@ const Home = () => {
 
         </div>
         {/* Particles */}
-       <ParticlesContainer/>
+        
+       {/* <ParticlesContainer/> */}
+       {/* <ParticlesMove/> */}
+       <ParticlesMoveOne/>
         {/* avatar img */}
         <motion.div
           variants={fadeIn("up", 0.6)}
