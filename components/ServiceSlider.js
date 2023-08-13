@@ -77,8 +77,8 @@ const ServiceSlider = () => {
               </div>
               {/*  arrow*/}
               <div className="text-3xl">
-                <RxArrowTopRight className="group-hove:rotate-45 group-hover:text-sky-700 transition-all duration-300 "/>
-                
+                <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-sky-700 transition-all duration-300 "/>
+
               </div>
             </div>
           </SwiperSlide>
