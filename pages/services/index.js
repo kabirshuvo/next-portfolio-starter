@@ -18,9 +18,11 @@ const Services = () => {
 
       </p>
         </div>
-        {/* slider */}
+        <div className="w-full xl:max-w-[65%]">
+          {/* slider */}
         <ServiceSlider />
 
+        </div>
        </div>
       </div>
       <Bulb />
