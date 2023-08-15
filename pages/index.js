@@ -6,6 +6,12 @@ import Avatar from "../components/Avatar";
 import ParticlesContainer from "../components/ParticlesContainer";
 import ParticlesMove from "../components/ParticlesMove";
 import ParticlesMoveOne from "../components/ParticlesMoveOne";
+import ReactParticlesComponent from "../components/ReactParticlesComponent";
+import CanvasAnimation from "../components/CanvasAnimation";
+import Bulb from "../components/Bulb";
+import About from "./about";
+
+
 
 const Home = () => {
   return (
@@ -61,10 +67,13 @@ const Home = () => {
 
         </div>
         {/* Particles */}
-        
-       {/* <ParticlesContainer/> */}
+        {/* <ReactParticlesComponent/> */}
+       <ParticlesContainer/>
        {/* <ParticlesMove/> */}
        {/* <ParticlesMoveOne/> */}
+       <Bulb/>
+   
+       {/* <CanvasAnimation/> */}
         {/* avatar img */}
         <motion.div
           variants={fadeIn("up", 0.6)}
@@ -76,6 +85,7 @@ const Home = () => {
           {/* <Avatar /> */}
         </motion.div>
       </div>
+      <About/>
     </div>
   );
 };

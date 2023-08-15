@@ -2,6 +2,8 @@ import { Sora } from "@next/font/google";
 import TopLeftImg from "./TopLeftImg";
 import Header from "./Header";
 import Nav from "./Nav";
+import About from "../pages/about";
+
 
 //font settings
 const sora = Sora({
@@ -19,6 +21,7 @@ const Layout = ({ children }) => {
       <Nav />
       <Header />
       {children}
+     
     </div>
   );
 };
